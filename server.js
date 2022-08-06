@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 dotenv.config()
 
 const DB = process.env.DB_URI
-const port = process.env.PORT || 5007
+const port = process.env.PORT || 4001
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
